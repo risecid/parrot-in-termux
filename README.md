@@ -1,6 +1,6 @@
 # parrot-in-termux
 
-[![Telegram](https://img.shields.io/badge/Chat-On%20Discord-738BD7.svg?style=for-the-badge)](https://discord.gg/Xaqkdeh)
+[![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/rian1337)
 
 # Version Info
 Installer Version 1.0
