@@ -1,6 +1,6 @@
 # parrot-in-termux
 
-[![DISCORD](https://img.shields.io/badge/Chat-On%20Discord-738BD7.svg?style=for-the-badge)](https://discord.gg/Xaqkdeh)
+[![Telegram](https://img.shields.io/badge/Chat-On%20Discord-738BD7.svg?style=for-the-badge)](https://discord.gg/Xaqkdeh)
 
 # Version Info
 Installer Version 1.0
@@ -21,4 +21,6 @@ This is a script that allows you to install Parrot Os in your termux application
 8. Now just start ubuntu: `./startparrot.sh`
 
 ### Information
-[![Rating](https://img.shields.io/wordpress/plugin/stars/bbpress?label=Rating)
+[![Stars](https://img.shields.io/packagist/stars/RiSecID/parrot-in-termux)
+[![Languages](https://img.shields.io/github/languages/count/RiSecID/parrot-in-termux)
+[![License](https://img.shields.io/hexpm/l/plug)
