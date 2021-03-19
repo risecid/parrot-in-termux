@@ -37,7 +37,7 @@ exit 1
 
 esac
 
-wget https://github.com/Techriz/AndronixOrigin/blob/master/Rootfs/Parrot/${ARCHITECTURE}/parrot-rootfs-${ARCHITECTURE}.tar.xz?raw=true -q -O parrot-rootfs.tar.xz 
+wget https://github.com/RiSecID/AndronixOrigin/blob/master/Rootfs/Parrot/${ARCHITECTURE}/parrot-rootfs-${ARCHITECTURE}.tar.xz?raw=true -q -O parrot-rootfs.tar.xz 
 printf "\x1b[38;5;214m[${time1}]\e[0m \x1b[38;5;83m[Installer thread/INFO]:\e[0m \x1b[38;5;87m Download complete!\n"
 
 fi
