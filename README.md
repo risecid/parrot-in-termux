@@ -17,7 +17,7 @@ This is a script that allows you to install Parrot Os in your termux application
 4. Download script: `git clone https://github.com/RiSecID/parrot-in-termux.git`
 5. Go to script folder: `cd parrot-in-termux`
 6. Give execution permission: `chmod +x parrot.sh`
-7. Run the script: `bash ubuntu.sh -y`
+7. Run the script: `bash parrot.sh -y`
 8. Now just start ubuntu: `./startparrot.sh`
 
 ### Information
