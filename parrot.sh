@@ -103,16 +103,16 @@ printf "\x1b[38;5;214m[${time1}]\e[0m \x1b[38;5;83m[Installer thread/INFO]:\e[0m
 printf "\e[0m"
 
 #fixed repo
-rm /etc/apt/sources.list
-echo "deb http://mirrors.ustc.edu.cn/parrot parrot main contrib non-free" >> /etc/apt/sources.list
-echo "deb-src http://mirrors.ustc.edu.cn/parrot parrot main contrib non-free" >> /etc/apt/sources.list
+rm $2/etc/apt/sources.list
+echo "deb http://mirrors.ustc.edu.cn/parrot parrot main contrib non-free" >> $2/etc/apt/sources.list
+echo "deb-src http://mirrors.ustc.edu.cn/parrot parrot main contrib non-free" >> $2/etc/apt/sources.list
 #Import the gpg key, this is only required in Parrot Security OS
-wget http://archive.parrotsec.org/parrot/misc/archive.gpg -O /etc/apt/trusted.gpg.d/parrot-archive-key.asc
+wget http://archive.parrotsec.org/parrot/misc/archive.gpg -O $2/etc/apt/trusted.gpg.d/parrot-archive-key.asc
 
 #Setup DNS
-echo "127.0.0.1 localhost" > /etc/hosts
-echo "nameserver 8.8.8.8" > /etc/resolv.conf
-echo "nameserver 8.8.4.4" >> /etc/resolv.conf
+echo "127.0.0.1 localhost" > $2/etc/hosts
+echo "nameserver 8.8.8.8" > $2/etc/resolv.conf
+echo "nameserver 8.8.4.4" >> $2/etc/resolv.conf
 
 }
 if [ "$1" = "-y" ];then
