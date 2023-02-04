@@ -21,9 +21,10 @@ This is a script that allows you to install Parrot Os in your termux application
 8. Now just start ubuntu: `./startparrot.sh`
 
 ### Fixed All Trouble
-1. Remove old sources "rm /etc/apt/sources.list"
-2. Add new repository in sources list with "echo "deb http://mirrors.ustc.edu.cn/parrot parrot main contrib non-free" >> /etc/apt/sources.list"
-3. Import new gpg key "wget http://archive.parrotsec.org/parrot/misc/archive.gpg -O $2/etc/apt/trusted.gpg.d/parrot-archive-key.asc"
+1. Remove old sources `rm /etc/apt/sources.list`
+2. Add new repository in sources list with `echo "deb http://mirrors.ustc.edu.cn/parrot parrot main contrib non-free
+deb-src http://mirrors.ustc.edu.cn/parrot parrot main contrib non-free" >> /etc/apt/sources.list`
+3. Import new gpg key `wget http://archive.parrotsec.org/parrot/misc/archive.gpg -O $2/etc/apt/trusted.gpg.d/parrot-archive-key.asc`
 
 ### Information
 [![Stars](https://img.shields.io/packagist/stars/RiSecID/parrot-in-termux)
